@@ -18,15 +18,15 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Fallstudien',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Fallstudien', link: '/fallstudien/einleitung/' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Referenz',
+					autogenerate: { directory: 'referenz' },
 				},
 			],
 		}),
