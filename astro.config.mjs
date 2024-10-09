@@ -6,6 +6,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '',
+			locales: {
+				root: {
+					label: 'Deutsch',
+					lang: 'de-de',
+			  },
+			},
 			customCss: [
 				'./src/styles/custom.css'
 			],
@@ -21,7 +27,8 @@ export default defineConfig({
 					label: 'Fallstudien',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Fallstudien', link: '/fallstudien/einleitung/' },
+						{ label: '📄 UseOffice AG', link: '/fallstudien/useoffice-ag/' },
+						{ label: '✏️ Notizen Weiterbildung', link: '/fallstudien/weiterbildung/', badge: 'work' },
 					],
 				},
 				{
@@ -29,6 +36,9 @@ export default defineConfig({
 					autogenerate: { directory: 'referenz' },
 				},
 			],
+			editLink: {
+				baseUrl: 'https://github.com/oliverlux/bitlearn.ch/edit/main/',
+			},
 		}),
 	],
 });
