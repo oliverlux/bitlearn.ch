@@ -24,11 +24,11 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Fallstudien',
+					label: 'Unterlagen',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: '📄 UseOffice AG', link: '/fallstudien/useoffice-ag/' },
-						{ label: '✏️ Notizen Weiterbildung', link: '/fallstudien/weiterbildung/', badge: 'work' },
+						{ label: '📄 Dossiers', link: '/unterlagen/dossiers/' },
+						{ label: '✏️ Notizen Weiterbildung', link: '/unterlagen/weiterbildung/', badge: 'work' },
 					],
 				},
 				{
