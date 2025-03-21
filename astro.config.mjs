@@ -24,15 +24,15 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Unterlagen',
+					label: 'Angebote',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: '📄 Dossiers', link: '/unterlagen/dossiers/' },
-						{ label: '✏️ Notizen Weiterbildung', link: '/unterlagen/weiterbildung/', badge: 'work' },
+						{ label: '📚 Konzeption Schulungen', link: '/angebote/konzeption/' },
+						{ label: '✏️ Erstellung Unterlagen', link: '/angebote/unterlagen/' },
 					],
 				},
 				{
-					label: 'Referenz',
+					label: 'Referenz',  badge: 'work',
 					autogenerate: { directory: 'referenz' },
 				},
 			],
