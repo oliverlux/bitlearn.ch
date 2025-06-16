@@ -24,7 +24,7 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Angebote',
+					label: '📂 Angebote',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: '📚 Konzeption Schulungen', link: '/angebote/konzeption/' },
@@ -32,8 +32,8 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Referenz',  badge: 'work',
-					autogenerate: { directory: 'referenz' },
+					label: '💭 Gedanken',  
+					autogenerate: { directory: 'gedanken' },
 				},
 			],
 			editLink: {
