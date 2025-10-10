@@ -19,9 +19,9 @@ export default defineConfig({
 				light: './src/assets/logo_trans.png',
 				dark: './src/assets/logo_trans_dark.png',
 			},
-			social: {
-				github: 'https://github.com/oliverlux',
-			},
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/oliverlux' },
+			],
 			sidebar: [
 				{
 					label: '📂 Angebote',
